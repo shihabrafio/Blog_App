@@ -3,7 +3,6 @@ class Post < ApplicationRecord
   has_many :comments, dependent: :destroy
   has_many :likes, dependent: :destroy
 
-
   def recent_posts
     posts.order(created_at: :desc).limit(5)
   end
