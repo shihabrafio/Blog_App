@@ -4,4 +4,3 @@ class AddForeignkeyComments < ActiveRecord::Migration[7.0]
     add_reference :comments, :post, foreign_key: { to_table: :users , column: :post_id}
   end
 end
-
