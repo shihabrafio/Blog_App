@@ -1,0 +1,11 @@
+one:
+  name: MyStringone
+  photo: MyStringononee
+  bio: MyTextone
+  posts_counter: 1
+
+two:
+  name: MyStringtwo
+  photo: MyStringtwo
+  bio: MyTexttwo
+  posts_counter: 2
