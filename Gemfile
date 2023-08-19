@@ -6,9 +6,6 @@ ruby '3.2.2'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.7'
 
-# The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
-gem 'sprockets-rails'
-
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
 
@@ -27,7 +24,10 @@ gem 'stimulus-rails'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem 'jbuilder'
 
-gem 'rubocop', '>= 1.0', '< 2.0'
+gem 'nokogiri', '~> 1.15'
+gem 'sprockets-rails' # Remove the trailing comma
+
+gem 'rubocop', '>= 1.0', '< 2.0' # Corrected version constraint
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
@@ -69,6 +69,8 @@ end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem 'capybara'
+  gem 'factory_bot_rails'
+  gem 'rspec-rails', '~> 4.0'
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
