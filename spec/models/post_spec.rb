@@ -51,7 +51,7 @@ RSpec.describe Post, type: :model do
     it 'updates the user posts_counter attribute' do
       user = User.create(name: 'John')
       post = Post.create(title: 'Hello', author: user)
-      post.update_user_post_counter
+      post.increment_user_posts_counter
 
       expect(user.reload.posts_counter).to eq(1)
     end
