@@ -11,9 +11,8 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features ](#-future-features-)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -88,6 +87,23 @@ rails server
 
 - GitHub: [@shihabrafio](https://github.com/shihabrafio)
 - LinkedIn: [Shihab Uddin Khan](https://www.linkedin.com/in/shihab-uddin-khan-45620a16a/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- FUTURE FEATURES -->
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Controllers specs**
+- [ ] **Views**
+- [ ] **Forms**
+- [ ] **N+1 problems**
+- [ ] **Integration specs for Views**
+- [ ] **Add Devise**
+- [ ] **Add authorization rules**
+- [ ] **Add API endpoints**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
