@@ -4,7 +4,7 @@
 
   <div class="w-full max-w-md p-2 min-h-min bg-red-100 border-2 text-black text-lg font-bold "> <%= @user.bio %> </div>
 
-  <div class="w-full flex flex-col gap-2 items-center">
+  <div class="w-full flex flex-col gap-2 items-center border-2">
     <% @latest_posts.each do |post| %>
       <%= render "shared/post", post: post, user: @user %>
     <% end %>
