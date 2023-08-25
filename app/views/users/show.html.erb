@@ -1,1 +1,17 @@
-<h1>This is user page</h1>
+<div class="p-4 flex flex-col gap-8 items-center">
+
+  <%= render "shared/user", user: @user %>
+
+  <div class="w-full max-w-md p-2 min-h-min bg-red-100 border-2 text-black text-lg font-bold "> <%= @user.bio %> </div>
+
+  <div class="w-full flex flex-col gap-2 items-center">
+    <% @latest_posts.each do |post| %>
+      <%= render "shared/post", post: post, user: @user %>
+    <% end %>
+  </div>
+
+  <div class="mt-10">
+    <%= link_to "See all Posts", user_posts_path(@user), class: "font-bold bg-rose-300 text-500 px-4 py-2 rounded-full" %>
+  </div>
+
+</div>

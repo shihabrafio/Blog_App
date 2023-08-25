@@ -1,0 +1,18 @@
+<div class=" w-full max-w-md bg-red-300 p-2 min-h-min" >
+
+  <%= link_to user_path(user) do %>
+    <div class="flex gap-6 justify-start items-center w-full">
+
+      <div class="h-36 w-36">
+        <img src=<%= user.photo %> alt="user image" class="h-full w-full rounded-full text-white object-cover">
+      </div>
+
+      <div class="flex flex-col gap-4 px-2 h-24 w-48">
+        <h1 class="font-bold text-2xl text-left text-white text-500"><%= user.name %></h1>
+        <p class="text-s text-white text-300">Number of posts: <%= user.posts_counter %></p>
+      </div>
+
+    </div>
+  <% end %>
+
+</div>
