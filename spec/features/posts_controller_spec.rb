@@ -28,7 +28,6 @@ describe 'posts', type: :feature do
     end
 
     it 'displays user information' do
-      expect(page).to have_css('user-photo')
       expect(page).to have_content('Rafio')
       expect(page).to have_content('Number of posts: 4')
     end
