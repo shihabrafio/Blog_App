@@ -1,6 +1,6 @@
-user_1 = User.create(name: 'Tom', photo: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80', bio: 'Teacher from Mexico.')
+user_1 = User.create(name: 'Tom', photo: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80', bio: 'Teacher from Mexico.', email: 'tom@gmail.com', password: 'password')
 
-user_2 = User.create(name: 'Lilly', photo: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80', bio: 'Teacher from Poland.')
+user_2 = User.create(name: 'Lilly', photo: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80', bio: 'Teacher from Poland.',  email: 'lilly@gmail.com', password: 'password')
 
 post_1 = Post.create(title: 'Mastering the Art of Time Management', text: 'Balancing work, family, and personal time in today fast-paced world is possible through effective strategies like task prioritization, SMART goals, and the Pomodoro Technique, leading to enhanced productivity and reduced stress.', author_id: user_1.id)
 post_2 = Post.create(title: 'Exploring the Wonders of Deep Sea Life', text: 'The ocean depths hold a myriad of fascinating creatures, from bioluminescent jellyfish to colossal squid with basketball-sized eyes.', author_id: user_1.id)
