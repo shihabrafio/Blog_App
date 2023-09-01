@@ -24,11 +24,7 @@
     </div>
 
     <% if @comments.present? %>
-      <div class="border-2 p-4 bg-red-300">
-        <% @comments.each do |comment| %>
-          <%= render "shared/comment", comment: comment %>
-        <% end %>
-      </div>
+<%= render "shared/comment", comments: @comments %>
     <% end %>
 
   </div>

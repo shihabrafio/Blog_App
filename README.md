@@ -88,6 +88,10 @@ rails server
 - GitHub: [@shihabrafio](https://github.com/shihabrafio)
 - LinkedIn: [Shihab Uddin Khan](https://www.linkedin.com/in/shihab-uddin-khan-45620a16a/)
 
+👤 **Ragan Hailu**
+- GitHub: [ragan](https://github.com/ragangithub)
+- LinkedIn: [Ragan Hailu](https://linkedin.com/in/raganhailu)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

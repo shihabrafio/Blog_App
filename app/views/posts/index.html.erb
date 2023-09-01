@@ -21,11 +21,8 @@
 
 
         <% if post.recent_comments.present? %>
-          <div class="border-2 p-2">
-            <% post.recent_comments.each do |comment| %>
-              <%= render "shared/comment", comment: comment %>
-            <% end %>
-          </div>
+          <% @comments = post.recent_comments %>
+          <%= render "shared/comment", comments: @comments %>
         <% end %>
 
       </div>
